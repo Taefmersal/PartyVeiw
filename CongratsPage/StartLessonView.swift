@@ -28,7 +28,7 @@ struct StartLessonView: View {
                 Spacer(minLength: 100)
 
                 // Button to start lesson
-                NavigationLink(destination:ContentView()) {
+                NavigationLink(destination:LessonOne()) {
                     Text("ابدأ الدرس")
                         .font(.title2)
                         .foregroundColor(.white)
